@@ -1,7 +1,7 @@
 :root {
   --bg: #0b1020;
-  --bg-accent: radial-gradient(circle at top left, #1f4fff 0, #0b1020 45%, #020617 100%);
-  --accent: #2563eb;
+  --bg-accent: radial-gradient(circle at top, #5632ce 0, #273564 45%, #4a4d59 100%);
+  --accent: #3b95df;
   --accent-soft: rgba(37, 99, 235, 0.12);
   --text-main: #0f172a;
   --text-muted: #4b5563;
@@ -69,7 +69,7 @@ nav a {
   font-size: 18px;
   padding: 8px 18px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #2563eb, #4f46e5); /* цвет сайта */
+  background: linear-gradient(135deg,  #5632ce, #3b95df); 
   box-shadow: 0 8px 22px rgba(37, 99, 235, 0.65);
   border: 1px solid rgba(191, 219, 254, 0.85);
   transition: transform 0.18s ease-out,
@@ -80,7 +80,7 @@ nav a {
 
 nav a:hover {
   transform: translateY(-1px);
-  background: linear-gradient(135deg, #1d4ed8, #4338ca); /* чуть темнее при hover */
+  background: linear-gradient(135deg, #5632ce, #3b95df); 
   box-shadow: 0 12px 30px rgba(37, 99, 235, 0.9);
   color: #f9fafb;
 }
